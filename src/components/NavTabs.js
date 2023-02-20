@@ -1,9 +1,24 @@
 import React from 'react';
 
+const styles = {
+  navBar: {
+    background: "#BF9C54",
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    listStyleType: 'none',
+  },
+  navItem: {
+    marginLeft: '15px',
+    padding: '10px',
+  }
+}
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul style={styles.navBar}>
+      <li style={styles.navItem}>
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -13,7 +28,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li style={styles.navItem}>
         <a
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
@@ -23,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li style={styles.navItem}>
         <a
           href="#myblog"
           onClick={() => handlePageChange('MyBlog')}
@@ -33,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           My Blog
         </a>
       </li>
-      <li className="nav-item">
+      <li style={styles.navItem}>
         <a
           href="#contactme"
 
