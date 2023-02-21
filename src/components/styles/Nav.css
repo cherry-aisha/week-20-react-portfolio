@@ -1,0 +1,25 @@
+:root {
+    --dark: '#3F2D30';
+    --light: '#F1EEEE';
+    --gold: '#BF9C54';
+    --h-font: 'Quicksand', sans-serif;
+    --b-font: '';
+}
+
+.navBar {
+    background: #BF9C54;
+    display: flex;
+    flex-direction: row;
+    align: center;
+    justify-content: right;
+    list-style-type: none;
+  }
+
+.navItem {
+    margin-left: 10px;
+    padding: 10px;
+  };
+
+li {
+    text-decoration: none;
+}

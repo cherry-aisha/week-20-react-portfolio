@@ -1,24 +1,10 @@
 import React from 'react';
-
-const styles = {
-  navBar: {
-    background: "#BF9C54",
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    listStyleType: 'none',
-  },
-  navItem: {
-    marginLeft: '15px',
-    padding: '10px',
-  }
-}
+import './styles/Nav.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul style={styles.navBar}>
-      <li style={styles.navItem}>
+    <ul className='navBar'>
+      <li className='navItem'>
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -28,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li style={styles.navItem}>
+      <li className='navItem'>
         <a
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
@@ -38,17 +24,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li style={styles.navItem}>
+      <li className='navItem'>
         <a
           href="#myblog"
           onClick={() => handlePageChange('MyBlog')}
 
           className={currentPage === 'MyBlog' ? 'nav-link active' : 'nav-link'}
         >
-          My Blog
+          Portfolio
         </a>
       </li>
-      <li style={styles.navItem}>
+      <li className='navItem'>
         <a
           href="#contactme"
 
@@ -56,6 +42,16 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
         >
           Contact Me
+        </a>
+      </li>
+      <li className='navItem'>
+        <a
+          href="#contactme"
+          onClick={() => handlePageChange('ContactMe')
+        }
+          className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
         </a>
       </li>
     </ul>
