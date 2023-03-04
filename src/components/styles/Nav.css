@@ -18,8 +18,13 @@
 .navItem {
     margin-left: 10px;
     padding: 10px;
+    text-decoration: none;
   };
 
-li {
+.nav-link {
+  color: var(--light);
+}
+
+.nav-link:active {
     text-decoration: none;
 }

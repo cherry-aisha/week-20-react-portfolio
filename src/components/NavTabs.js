@@ -5,51 +5,51 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className='navBar'>
       <li className='navItem'>
-        <a
+        <a style={{color: 'rgb(48, 46, 46)', textDecoration: 'none'}}
           href="#home"
           onClick={() => handlePageChange('Home')}
 
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Home' ? 'nav-link\:active' : 'nav-link'}
         >
           Home
         </a>
       </li>
       <li className='navItem'>
-        <a
+        <a style={{color: 'rgb(48, 46, 46)', textDecoration: 'none'}}
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
 
-          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'AboutMe' ? 'nav-link\:active' : 'nav-link'}
         >
           About Me
         </a>
       </li>
       <li className='navItem'>
-        <a
+        <a style={{color: 'rgb(48, 46, 46)', textDecoration: 'none'}}
           href="#myblog"
           onClick={() => handlePageChange('MyBlog')}
 
-          className={currentPage === 'MyBlog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'MyBlog' ? 'nav-link\:active' : 'nav-link'}
         >
           Portfolio
         </a>
       </li>
       <li className='navItem'>
-        <a
+        <a style={{color: 'rgb(48, 46, 46)', textDecoration: 'none'}}
           href="#contactme"
 
           onClick={() => handlePageChange('ContactMe')}
-          className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'ContactMe' ? 'nav-link\:active' : 'nav-link'}
         >
           Contact Me
         </a>
       </li>
       <li className='navItem'>
-        <a
+        <a style={{color: 'rgb(48, 46, 46)', textDecoration: 'none'}}
           href="#contactme"
           onClick={() => handlePageChange('ContactMe')
         }
-          className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'ContactMe' ? 'nav-link\:active' : 'nav-link'}
         >
           Resume
         </a>

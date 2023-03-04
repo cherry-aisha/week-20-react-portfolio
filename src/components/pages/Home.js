@@ -6,7 +6,6 @@ export default function Home() {
     <div className="home-background">
       <h1 className="home-header">Cherry Aisha's Web Developer's Portfolio</h1>
       <p>
-
       </p>
     </div>
   );
