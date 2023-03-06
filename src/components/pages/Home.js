@@ -7,6 +7,7 @@ export default function Home() {
       <h1 className="home-header">Cherry Aisha's Web Developer's Portfolio</h1>
       <p>
       </p>
+      <h2 className="home-footer"></h2>
     </div>
   );
 }
