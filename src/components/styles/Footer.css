@@ -1,0 +1,11 @@
+:root {
+    --dark: '#3F2D30';
+    --light: '#F1EEEE';
+    --gold: '#BF9C54';
+    --h-font: 'Quicksand', sans-serif;
+    --b-font: '';
+}
+
+.row {
+    background-color: var(--gold);
+}
