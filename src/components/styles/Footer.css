@@ -1,11 +1,27 @@
 :root {
-    --dark: '#3F2D30';
-    --light: '#F1EEEE';
-    --gold: '#BF9C54';
+    --dark: #3F2D30;
+    --light: #FBE7C6;
+    --gold: #B4F8C8;
+    --blue: #A0E7E5;
+    --pink: #FFAEBC;
     --h-font: 'Quicksand', sans-serif;
     --b-font: '';
-}
+  }
 
-.row {
-    background-color: var(--gold);
-}
+.footerBar {
+    position: fixed;
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: right;
+    list-style-type: none;
+  }
+
+  .footerContent {
+    
+  }

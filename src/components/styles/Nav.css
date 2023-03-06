@@ -1,30 +1,23 @@
 :root {
-    --dark: '#3F2D30';
-    --light: '#F1EEEE';
-    --gold: '#BF9C54';
-    --h-font: 'Quicksand', sans-serif;
-    --b-font: '';
+  --dark: #3F2D30;
+  --light: #FBE7C6;
+  --gold: #B4F8C8;
+  --blue: #A0E7E5;
+  --pink: #FFAEBC;
+  --h-font: 'Quicksand', sans-serif;
+  --b-font: '';
 }
 
 .navBar {
-    background: #BF9C54;
+    background: var(--dark);
     display: flex;
     flex-direction: row;
-    align: center;
     justify-content: right;
     list-style-type: none;
+    height: 60px;
   }
 
-.navItem {
-    margin-left: 10px;
-    padding: 10px;
-    text-decoration: none;
-  };
-
-.nav-link {
-  color: var(--light);
-}
-
-.nav-link:active {
-    text-decoration: none;
-}
+  .nav-item {
+    padding: 5px;
+    color: var(--light);
+  }

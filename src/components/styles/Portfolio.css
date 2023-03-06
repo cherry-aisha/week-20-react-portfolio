@@ -1,0 +1,78 @@
+:root {
+    --dark: '#3F2D30';
+    --light: '#FBE7C6';
+    --gold: '#B4F8C8';
+    --blue: '#A0E7E5';
+    --pink: '#FFAEBC';
+    --h-font: 'Quicksand', sans-serif;
+    --b-font: '';
+}
+
+.card {
+    max-width: 400px;
+    background-color: var(--light);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 10px;
+  
+    /* set font color */
+    color: var(--dark);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card img {
+    width: 400px;
+    height: 200px;
+  }
+  
+  .card h2 {
+    margin: 10px;
+    font-size: 1.5rem;
+    background-color: var(--light);
+  }
+  
+  .card p {
+    margin: 1rem;
+    font-size: 1rem;
+    background-color: var(--light);
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 0;
+    list-style: none;
+    background-color: var(--gold);
+  }
+  
+  .tags li {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: var(--dark);
+    font-size: 1rem;
+  }
+  
+  .card a {
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: var(--gold);
+    color: var(--dark);
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card a:hover {
+    background-color: var(--gold);
+  }

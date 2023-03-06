@@ -3,7 +3,7 @@ import './styles/Footer.css';
 
 function Footer({ currentPage, handlePageChange }) {
 return (
-    <footer>
+    <footer className="footerBar">
         <div className="row">
             <div className="twelve columns">
                 <p>This is a footer</p>
