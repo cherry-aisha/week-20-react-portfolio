@@ -36,13 +36,12 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li  className='nav-item'>
         <a
-          href="#contactme"
-          onClick={() => handlePageChange('ContactMe')
+          href="#resume"
+          onClick={() => handlePageChange('Resume')
         }
-          className={currentPage === 'ContactMe' ? 'nav-link:active' : 'nav-link'}
-        >
-          Resume
-        </a>
+          className={currentPage === 'Resume' ? 'nav-link:active' : 'nav-link'}
+        >Resume</a>
+
       </li>
     </ul>
   );

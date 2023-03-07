@@ -20,8 +20,20 @@
     padding: 20px 0;
     justify-content: right;
     list-style-type: none;
-  }
+}
 
-  .footerContent {
+.footerContent {
     color: var(--light);
-  }
+}
+
+.social-icons {
+    color: var(--light);
+}
+
+a {
+    color: var(--light);
+}
+
+.icon {
+    max-width: 30px;
+}
