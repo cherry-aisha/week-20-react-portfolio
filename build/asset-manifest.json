@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/week-20-react-portfolio/static/css/main.e131142b.css",
-    "main.js": "/week-20-react-portfolio/static/js/main.f97cf8bf.js",
+    "main.css": "/week-20-react-portfolio/static/css/main.72442049.css",
+    "main.js": "/week-20-react-portfolio/static/js/main.734a0d2f.js",
     "index.html": "/week-20-react-portfolio/index.html",
-    "main.e131142b.css.map": "/week-20-react-portfolio/static/css/main.e131142b.css.map",
-    "main.f97cf8bf.js.map": "/week-20-react-portfolio/static/js/main.f97cf8bf.js.map"
+    "main.72442049.css.map": "/week-20-react-portfolio/static/css/main.72442049.css.map",
+    "main.734a0d2f.js.map": "/week-20-react-portfolio/static/js/main.734a0d2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e131142b.css",
-    "static/js/main.f97cf8bf.js"
+    "static/css/main.72442049.css",
+    "static/js/main.734a0d2f.js"
   ]
 }

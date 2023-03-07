@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className="home-header">Cherry Codes Portfolio</h1>
       </div>
       <div className="avatar-container">
-      <img className="avatar" src="/Assets/avatar.png" alt="Profile Avatar"></img>
+      <img className="avatar" src="./Assets/avatar.png" alt="Profile Avatar"></img>
       </div>
       <div className="about-me-container">
       <h1 className="about-me home-header">About Me</h1>
