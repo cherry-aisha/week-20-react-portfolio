@@ -1,5 +1,5 @@
 :root {
-  --dark: #3F2D30;
+  --dark: #0f021d;
   --light: #FBE7C6;
   --gold: #B4F8C8;
   --blue: #A0E7E5;
@@ -7,13 +7,15 @@
   --h-font: 'Quicksand', sans-serif;
   --b-font: '';
 }
+.page {
+  background-image: linear-gradient(to right, rgb(203, 200, 200), rgb(153, 29, 143));
+  height: 100%;
+}
 
 .background {
-  background-image: linear-gradient(to right,#FFAEBC, #A0E7E5, (36, 88, 153));
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: ivh;
     margin-top: -20px;
     border-bottom-width: 8px;
     border-color: var(--gold);

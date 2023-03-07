@@ -10,6 +10,9 @@ export default function Home() {
       <h2 className="home-footer"></h2>
       <div>
       <h1>About Me</h1>
+      <span>
+        
+      </span>
       <p>
        I'm Cherry, a web developer with 3 years+ experience, serving UK-based clients in web design,
        web maintanence and graphic design. Additonal skills include copywriting, video editng and digital marketing.
