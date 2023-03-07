@@ -43,8 +43,23 @@
 
   .about-me-container {
     margin:20px;
+    justify-content: center;
+    align-items: center;
   }
 
   .about-me {
     color: var(--gold);
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--h-font);
+    font-weight: 600;
+    padding-top: 40px;
+    width: 75%;
   }

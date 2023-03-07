@@ -3,7 +3,7 @@ import GenCards from '../Cards';
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="cards">
       <h1>Portfolio Page</h1>
       <GenCards />
     </div>

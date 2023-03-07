@@ -8,16 +8,19 @@
     --b-font: '';
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .card {
     max-width: 400px;
-    background-color: var(--light);
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    margin-top: 10px;
-  
-    /* set font color */
+    margin: 20px;
     color: var(--dark);
   }
   
@@ -33,14 +36,12 @@
   
   .card h2 {
     margin: 10px;
-    font-size: 1.5rem;
-    background-color: var(--light);
+    font-size: 25px;
   }
   
   .card p {
-    margin: 1rem;
-    font-size: 1rem;
-    background-color: var(--light);
+    margin: 1px;
+    font-size: 15px;
   }
   
   .tags {
@@ -49,7 +50,6 @@
     margin: 1rem;
     padding: 0;
     list-style: none;
-    background-color: var(--gold);
   }
   
   .tags li {
@@ -63,16 +63,14 @@
   
   .card a {
     display: block;
-    margin: 1rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color: var(--gold);
-    color: var(--dark);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
+    background-color: var(--gold);
   }
   
   .card a:hover {
-    background-color: var(--gold);
+    background-color: var(--light);
   }

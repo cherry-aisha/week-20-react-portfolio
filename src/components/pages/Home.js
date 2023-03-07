@@ -11,7 +11,7 @@ export default function Home() {
       <img className="avatar" src="/Assets/avatar.png" alt="Profile Avatar"></img>
       </div>
       <div className="about-me-container">
-      <h1 className="about-me">About Me</h1>
+      <h1 className="about-me home-header">About Me</h1>
       <p>
        I'm Cherry, a web developer with 3 years+ experience, serving UK-based clients in web design,
        web maintanence and graphic design. Additonal skills include copywriting, video editng and digital marketing.
