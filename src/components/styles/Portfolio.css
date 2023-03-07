@@ -1,9 +1,9 @@
 :root {
-    --dark: '#3F2D30';
-    --light: '#FBE7C6';
-    --gold: '#B4F8C8';
-    --blue: '#A0E7E5';
-    --pink: '#FFAEBC';
+    --dark: #211f1f;
+    --light: #E9DDD4;
+    --gold: #900020;
+    --blue: #e9d4e0;
+    --pink: #E9DDD4;
     --h-font: 'Quicksand', sans-serif;
     --b-font: '';
 }

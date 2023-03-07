@@ -1,14 +1,13 @@
 :root {
-  --dark: #0f021d;
-  --light: #FBE7C6;
-  --gold: #B4F8C8;
-  --blue: #A0E7E5;
-  --pink: #FFAEBC;
-  --h-font: 'Quicksand', sans-serif;
+  --dark: #000000;
+  --light: #E9DDD4;
+  --gold: #900020;
+  --blue: #e9d4e0;
+  --pink: #E9DDD4;
+  --h-font: 'Code Pro', sans-serif;
   --b-font: '';
 }
 .page {
-  background-image: linear-gradient(to right, rgb(203, 200, 200), rgb(153, 29, 143));
   height: 100%;
 }
 
