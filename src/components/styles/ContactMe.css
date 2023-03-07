@@ -1,0 +1,57 @@
+:root {
+    --dark: #211f1f;
+    --light: #E9DDD4;
+    --gold: #900020;
+    --blue: #e9d4e0;
+    --pink: #E9DDD4;
+    --h-font: 'Quicksand', sans-serif;
+    --b-font: '';
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+  
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--light);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+  
+input[type="submit"] {
+    background-color: var(--light);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.button:hover {
+    background-color: var(--gold);
+    color: var(--light);
+}

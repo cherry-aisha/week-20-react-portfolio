@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/ContactMe.css';
 
 function ContactMe() {
   const [name, setName] = useState("");
@@ -72,11 +73,10 @@ function ContactMe() {
           onChange={(event) => setMessage(event.target.value)}
           required
         />
-        <button type="submit">Submit</button>
+        <button className="button" type="submit">Submit</button>
       </form>
     </div>
   );
 }
 
 export default ContactMe;
-

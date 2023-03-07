@@ -10,8 +10,8 @@ export default function Home() {
       <div className="avatar-container">
       <img className="avatar" src="/Assets/avatar.png" alt="Profile Avatar"></img>
       </div>
-      <div>
-      <h1>About Me</h1>
+      <div className="about-me-container">
+      <h1 className="about-me">About Me</h1>
       <p>
        I'm Cherry, a web developer with 3 years+ experience, serving UK-based clients in web design,
        web maintanence and graphic design. Additonal skills include copywriting, video editng and digital marketing.
