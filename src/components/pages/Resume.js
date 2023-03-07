@@ -12,6 +12,20 @@ export default function Resume() {
 return (
     <div className='resume'>
       <h1>Resume</h1>
+      <h2>My Skills</h2>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>API's</li>
+      <li>Node.js</li>
+      <li>Express.js</li>
+      <li>SQL</li>
+      <li>Mongoose</li>
+      <li>React</li>
+      <li>Graph.ql</li>
+      <li>Mern Stack</li>
+      <li>Wordpress</li>
+      <li>UX UI Design</li>
       <PDFDownloadLink />
     </div>
 );
