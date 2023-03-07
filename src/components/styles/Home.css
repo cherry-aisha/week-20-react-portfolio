@@ -29,3 +29,14 @@
     font-weight: 600;
     padding-top: 40px;
   }
+
+  .avatar {
+    width: 250px;
+  }
+
+  .avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
