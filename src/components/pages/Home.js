@@ -3,9 +3,9 @@ import '../styles/Home.css';
 
 export default function Home() {
   return (
-    <div className="hero-background">
+    <div className="background">
       <div>
-      <h1 className="home-header">Cherry Codes Portfolio</h1>
+      
       </div>
       <div className="avatar-container">
       <img className="avatar" src="../Assets/avatar.png" alt="Profile Avatar"></img>

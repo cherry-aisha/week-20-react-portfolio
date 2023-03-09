@@ -7,3 +7,7 @@
     --logoFont: 'Quicksand', sans-serif;
     --bodyFont: '';
   }
+
+  .page {
+    height: 100%;
+  }

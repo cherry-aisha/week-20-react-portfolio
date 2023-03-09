@@ -1,56 +1,8 @@
-.page {
-  height: 100%;
-}
-
 .background {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    margin-top: -20px;
-    border-bottom-width: 8px;
-    border-color: var(--gold);
-  }
-
-  .home-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: var(--gold);
-    font-family: var(--h-font);
-    font-weight: 600;
-    padding-top: 40px;
-  }
-
-  .avatar {
-    width: 250px;
-  }
-
-  .avatar-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-me-container {
-    margin:20px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-me {
-    color: var(--gold);
-    justify-content: center;
-    align-items: center;
-  }
-
-  p {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--h-font);
-    font-weight: 600;
-    padding-top: 40px;
-    width: 75%;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #110B3B, #67264E);
+  width: 100%;
+}
