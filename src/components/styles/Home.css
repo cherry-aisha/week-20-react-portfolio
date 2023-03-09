@@ -1,8 +1,21 @@
 .background {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   background: linear-gradient(to bottom, #110B3B, #67264E);
   width: 100%;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 60%;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 60%;
 }
