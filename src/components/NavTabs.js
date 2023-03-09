@@ -3,16 +3,15 @@ import './styles/Nav.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className='navBar'>
-      <li className='nav-item'>
+    <div className='nav'>
+    <ul className='navUl'>
+      <li>
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
 
           className={currentPage === 'Home' ? 'nav-link:active' : 'nav-link'}
-        >
-          Home
-        </a>
+        >Home</a>
       </li>
       <li  className='nav-item'>
         <a
@@ -20,9 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Portfolio')}
 
           className={currentPage === 'Portfolio' ? 'nav-link:active' : 'nav-link'}
-        >
-          Portfolio
-        </a>
+        >Portfolio</a>
       </li>
       <li  className='nav-item'>
         <a
@@ -30,9 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           onClick={() => handlePageChange('ContactMe')}
           className={currentPage === 'ContactMe' ? 'nav-link:active' : 'nav-link'}
-        >
-          Contact Me
-        </a>
+        >Contact Me</a>
       </li>
       <li  className='nav-item'>
         <a
@@ -41,9 +36,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         }
           className={currentPage === 'Resume' ? 'nav-link:active' : 'nav-link'}
         >Resume</a>
-
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </div>
   );
 }
 

@@ -1,23 +1,13 @@
-:root {
-  --dark: #000000;
-  --light: #E9DDD4;
-  --gold: #900020;
-  --blue: #e9d4e0;
-  --pink: #E9DDD4;
-  --h-font: 'Quicksand', sans-serif;
-  --b-font: '';
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkblue);
+  padding: 20px;
 }
 
-.navBar {
-    background: var(--dark);
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    list-style-type: none;
-    height: 60px;
-  }
-
-  .nav-item {
-    padding: 5px;
-    color: var(--pink);
-  }
+.navUl {
+  color: var(--lightPink);
+  display: flex;
+  list-style: none;
+}

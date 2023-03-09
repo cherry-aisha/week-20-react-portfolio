@@ -1,12 +1,3 @@
-:root {
-  --dark: #000000;
-  --light: #E9DDD4;
-  --gold: #900020;
-  --blue: #e9d4e0;
-  --pink: #E9DDD4;
-  --h-font: 'Code Pro', sans-serif;
-  --b-font: '';
-}
 .page {
   height: 100%;
 }
