@@ -14,7 +14,7 @@ export default function Home() {
     </div>
       <aside className="avatarContainer">
       <a href="#home" target="_blank">
-            <img className="avatar" src="https://raw.githubusercontent.com/cherry-aisha/week-20-react-portfolio/89159933559023e2fddf1ccce486055cd18fe7c3/public/Assets/avatar.png" alt="GitHub"/>
+            <img className="avatar" src="https://raw.githubusercontent.com/cherry-aisha/week-20-react-portfolio/a0c56ce21c0d239a4079c6a9b5a7be8ca140e08a/public/Assets/avatar.png" alt="GitHub"/>
             </a>
       </aside>
     </div>
