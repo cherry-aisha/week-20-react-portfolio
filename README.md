@@ -21,10 +21,10 @@ SO THAT I can assess whether they're a good candidate for an open position
 - Social Icons to Github and Linkedin
 
 ### Screenshot
-![Screenshot]()
+![Screenshot](/public/Assets/screenshot.png)
 
 ### Visit The Deployed Page
-[Click Here to Visit the Github Repo](https://cherry-aisha.github.io/week-20-react-portfolio/)
+[Click Here to Visit the Github Page](https://cherry-aisha.github.io/week-20-react-portfolio/)
 
 ### Visit The GitHub Repo
 [Click Here to Visit the Github Repo](https://github.com/cherry-aisha/week-20-react-portfolio)

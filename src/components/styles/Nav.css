@@ -8,6 +8,8 @@
 
 .logo {
   display: flex;
+  flex-direction: start;
+  max-width: 150px;
 }
 
 .navUl {
