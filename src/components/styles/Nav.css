@@ -6,8 +6,13 @@
   padding: 20px;
 }
 
+.logo {
+  display: flex;
+}
+
 .navUl {
   color: var(--lightPink);
   display: flex;
   list-style: none;
+  font-size: 15px;
 }
