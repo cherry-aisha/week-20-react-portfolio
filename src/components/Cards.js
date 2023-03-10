@@ -37,26 +37,27 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: 'Project 5',
-      image: 'https://via.placeholder.com/400x250',
+      title: 'Tech Blog',
+      image: 'https://techworldtimes.com/wp-content/uploads/2020/05/Top-Technology-Blogs.jpg',
       description: '',
       tags: ['React', 'Material UI', 'HTML'],
-      url: '#',
+      url: 'https://github.com/cherry-aisha/week-14-tech-blog',
     },
     {
       id: 6,
-      title: 'Project 6',
-      image: 'https://via.placeholder.com/400x250',
+      title: 'J.A.T.E',
+      image: 'https://store.hp.com/app/assets/images/uploads/prod/what-is-a-progressive-web-app-hero1562086869880139.jpg',
       description: '',
-      tags: ['React', 'Material UI', 'HTML'],
-      url: '#',
+      tags: ['Progressive Web App, React'],
+      url: 'https://github.com/cherry-aisha/week-19-text-editor',
     },
   ];
 
   return (
-    <main className="container">
+    <main>
       {projects.map((project) => (
-        <div className="card" key={project.id}>
+        <div className="container">
+          <div className="card" key={project.id}>
 
           <img src={project.image} alt={project.title} className=""/>
           
@@ -70,6 +71,7 @@ const Portfolio = () => {
           <a href={project.url} target="_blank" rel="noopener noreferrer">
             View Project
           </a>
+        </div>
         </div>
       ))}
     </main>

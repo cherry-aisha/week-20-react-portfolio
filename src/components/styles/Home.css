@@ -14,8 +14,15 @@
 
 .aboutMe {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
   min-width: 60%;
+  color: var(--lightPink);
+  margin-left: 40px;
 }
+
+.aboutMeI {
+  color: var(--lightPink);
+  margin-left: 40px;
+  line-height: 25px;
+}
+
