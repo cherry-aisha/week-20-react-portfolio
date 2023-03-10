@@ -1,15 +1,13 @@
-:root {
-    --dark: #211f1f;
-    --light: #E9DDD4;
-    --gold: #900020;
-    --blue: #e9d4e0;
-    --pink: #E9DDD4;
-    --h-font: 'Quicksand', sans-serif;
-    --b-font: '';
+.background {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #110B3B, #67264E);
 }
 
 h1 {
     margin-left: 20px;
+    color: var(--lightPink);
 }
 
 form {
@@ -22,6 +20,7 @@ form {
 label {
     font-weight: bold;
     margin-bottom: 5px;
+    color: var(--lightPink);
 }
   
   input[type="text"],
@@ -29,14 +28,13 @@ label {
   textarea {
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid var(--light);
+    border: 1px solid;
     margin-bottom: 10px;
     font-size: 16px;
 }
   
 input[type="submit"] {
-    background-color: var(--light);
-    color: #fff;
+    background-color: var(--lightPink);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -45,13 +43,14 @@ input[type="submit"] {
 }
 
 .button {
-    margin: 10px;
-    border-radius: 15px;
-    background-color: var(--dark);
-    color: var(--light);
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: var(--darkBlue);
+    color: var(--lightPink);
+    margin-bottom: 80px;
 }
 
 .button:hover {
-    background-color: var(--gold);
-    color: var(--light);
+    background-color: var(--lightPink);
+    color: var(--darkBlue);
 }

@@ -1,13 +1,22 @@
-:root {
-    --dark: #000000;
-    --light: #E9DDD4;
-    --gold: #900020;
-    --blue: #e9d4e0;
-    --pink: #E9DDD4;
-    --h-font: 'Quicksand', sans-serif;
-    --b-font: '';
-  }
+.background-r {
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #110B3B, #67264E);
+}
+
+.h {
+  color: var(--lightPink);
+  margin-left: 20px;
+}
 
 .resume {
     margin-left:20px;
+    color: var(--lightPink);
+}
+
+li {
+  list-style: none;
+  color: var(--lightPink);
+  margin-left: 20px;
 }

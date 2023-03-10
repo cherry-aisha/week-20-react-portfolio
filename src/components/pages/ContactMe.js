@@ -38,7 +38,7 @@ function ContactMe() {
   }
 
   return (
-    <div>
+    <div className="background">
       <h1>Contact Me</h1>
 
       <form onSubmit={handleSubmit}>

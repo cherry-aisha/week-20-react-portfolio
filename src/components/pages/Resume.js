@@ -2,17 +2,10 @@ import React from 'react';
 import '../styles/Resume.css';
 
 export default function Resume() {
-    function PDFDownloadLink() {
-  return (
-    <a href="/Assets/resume.pdf" download="resume.pdf">
-    Download Cherry Aisha's Resume
-  </a>
-  );
-}
 return (
-    <div className='resume'>
-      <h1>Resume</h1>
-      <h2>My Skills</h2>
+    <div className="background-r">
+      <h1 className="h">Resume</h1>
+      <h2 className="h">My Skills</h2>
       <li>HTML</li>
       <li>CSS</li>
       <li>Javascript</li>
@@ -29,4 +22,13 @@ return (
       <PDFDownloadLink />
     </div>
 );
+function PDFDownloadLink() {
+  return (
+    <div>
+    <a href="/Assets/resume.pdf" download="resume.pdf">
+    Download Cherry Aisha's Resume
+  </a>
+  </div>
+  );
+}
 }

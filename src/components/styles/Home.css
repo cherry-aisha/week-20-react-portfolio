@@ -15,7 +15,7 @@
 .aboutMe {
   display: flex;
   flex-direction: row;
-  min-width: 60%;
+  max-width: 60%;
   color: var(--lightPink);
   margin-left: 40px;
 }
@@ -24,5 +24,6 @@
   color: var(--lightPink);
   margin-left: 40px;
   line-height: 25px;
+  max-width: 60%;
 }
 
