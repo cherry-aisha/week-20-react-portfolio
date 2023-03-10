@@ -28,3 +28,5 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ### Visit The GitHub Repo
 [Click Here to Visit the Github Repo](https://github.com/cherry-aisha/week-20-react-portfolio)
+
+Thank you for visiting my ReadMe!
