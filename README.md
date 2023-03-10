@@ -21,7 +21,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 - Social Icons to Github and Linkedin
 
 ### Screenshot
-![Screenshot](/public/Assets/screenshot.png)
+![Screenshot](https://github.com/cherry-aisha/week-20-react-portfolio/blob/main/public/Assets/screenshot.png?raw=true)
 
 ### Visit The Deployed Page
 [Click Here to Visit the Github Page](https://cherry-aisha.github.io/week-20-react-portfolio/)
