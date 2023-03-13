@@ -3,6 +3,7 @@
     flex: wrap;
     flex-direction: column;
     background: linear-gradient(to bottom, #110B3B, #67264E);
+    height: 100vh;
 }
 
 h1 {

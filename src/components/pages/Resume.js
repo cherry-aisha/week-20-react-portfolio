@@ -25,7 +25,7 @@ return (
 function PDFDownloadLink() {
   return (
     <div>
-    <a href="/Assets/resume.pdf" download="resume.pdf">
+    <a className="download" href="/Assets/resume.pdf" download="resume.pdf">
     Download Cherry Aisha's Resume
   </a>
   </div>
